@@ -1,3 +1,7 @@
+provider "aws" {
+  region = "us-east-1"
+}
+
 resource "aws_sqs_queue" "terraform_queue" {
   name                      = "lanchonete-producao-queue.fifo"
   fifo_queue                = true
