@@ -1,11 +1,11 @@
 terraform {
 
-  cloud {
-    workspaces {
-      name = "lanchonete-terraform-sqs"
-    }
-    organization = "FIAP_POS"
-  }
+  # cloud {
+  #   workspaces {
+  #     name = "lanchonete-terraform-sqs"
+  #   }
+  #   organization = "FIAP_POS"
+  # }
 
   required_providers {
     aws = {
